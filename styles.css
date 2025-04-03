@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background:#fdcc04;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.hero {
+    background: #fdcc04;
+}
+
+.hero-container {
+    display: grid;
+    height: 95vh;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items: center;
+    color: #000;
+    padding: 0rem 2rem;
+}
+
+.column-center h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.buttons{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#easy-btn{
+    background: #17d456;
+}
+#easy-btn:hover{
+    background: #096127;
+    color: #fff;
+}
+
+#medium-btn{
+    background: #f1e206;
+}
+#medium-btn:hover{
+    background: #8d8404;
+    color: #fff;
+}
+
+#hard-btn{
+    background: #f55236;
+}
+#hard-btn:hover{
+    background: #913120;
+    color: #fff;
+}
+
+
+
+
+#timer-section {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#time-input {
+    padding: 8px;
+    font-size: 1rem;
+    width: 60px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+#start-btn {
+    background: #007bff;
+    color: white;
+}
+
+#pause-btn {
+    background: #6c757d;
+    color: white;
+}
+
+#reset-btn {
+    background: #dc3545;
+    color: white;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Welcome to LeetCode Timer</div>
+    </nav>
+
+    <section class="hero">
+        
+        <div class="hero-container">
+            <div class="column-center">
+                <h1>Choose the Problems Difficulty</h1>
+                <div>
+                    <button class="buttons" id="easy-btn">Easy</button>
+                    <button class="buttons" id="medium-btn">Medium</button>
+                    <button class="buttons" id="hard-btn">Hard</button>
+                </div>
+            </div>
+            <div id="timer-section" >
+                <h2>Set Your Timer</h2>
+                <input type="number" id="time-input" value="15" min="1">
+                <span>minutes</span>
+                <br>
+                <button id="start-btn" class="buttons">Start</button>
+                <button id="pause-btn" class="buttons">Pause</button>
+                <button id="reset-btn" class="buttons">Reset</button>
+                <h2 id="timer-display">15:00</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <audio id="alarm-sound" src="William Tell Overture.mp3" preload="auto"></audio>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
